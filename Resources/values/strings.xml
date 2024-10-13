@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">随机选项</string><!--RandomOptions-->
+	<!--
+	<string name="app_text">Hello, Android!</string>-->
+
+	<string name="xuanzemuban">点击选择模板，长按编辑模板</string>
+	<string name="xuanzemuban2">点击选择模板</string>
+	<string name="suiji">随机</string>
+	<string name="kaishi">开始</string>
+</resources>

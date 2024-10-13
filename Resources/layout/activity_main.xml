@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main" 
+        android:visibility="visible">
+       <!-- <Button
+            android:text="@string/xuanzemuban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/templateButton"
+            android:textColor="@android:color/darker_gray" />-->
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="240.0dp"
+            android:id="@+id/templateEditBox" />
+        <TextView
+            android:text="@string/suiji"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/randomText"
+            android:layout_centerInParent="true"
+            android:textSize="40dp" />
+        <Button
+            android:text="@string/kaishi"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/randomText"
+            android:id="@+id/startButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:textSize="25dp"/>
+        <TextView
+            android:text="关于"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:id="@+id/guanyu" 
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/templatePage"
+        android:visibility="gone">
+        <Button
+            android:text="@string/xuanzemuban2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/templateButton2"
+            android:textColor="@android:color/darker_gray" />
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="245.5dp"
+            android:id="@+id/templateTextbox"
+            android:layout_below="@id/templateButton2"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/templatePage_ToolButton" 
+            android:layout_alignParentBottom="true">
+         </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
